@@ -12,7 +12,7 @@ app.controller('MainCtrl', function($scope, UserFactory) {
 });
 
 */
-var myApp = angular.module('myApp', []);
+var myApp = angular.module('myApp', ['ngResource']);
 
 myApp.factory('UserFactory', function () {
   return { message: "I'm data from a service" };
